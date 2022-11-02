@@ -1,0 +1,27 @@
+Collections quiz
+1. Name three ordered and two unordered collections?
+    Answer: Ordered: str, tuple, list
+            Unordered: dict, set
+    NB. Dictionaries are insertion ordered from Python 3.6+.
+
+2. Fill in the blanks:
+    Answer: Dictionaries have unique keys
+            Sets have unique objects
+
+3. Is a tuple mutable?
+    Answer: False
+
+4. What would be printed from the following code?
+    >>> movies = "Gregory's Girl", "Local Hero", "Comfort and Joy", "That Sinking Feeling"
+    >>> x, *y, z = movies
+    >>> print(y)
+    Answer: ['Local Hero', 'Comfort and Joy']
+
+5. The joy of sets! What would be printed from the following code?
+    >>> scottish_movies = "Gregory's Girl", "Local Hero", "Comfort and Joy", "That Sinking Feeling"
+    >>> fav_movies = "
+    >>> print(scottish_movies & fav_movies)
+    Answer: {'Local Hero'}
+
+6. Write the print statement from question 5 using set methods (rather than set operators)?
+    Answer: print(scottish_movies.intersection(fav_movies)

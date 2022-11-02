@@ -1,0 +1,28 @@
+Regular Expressions quiz
+1. What does B.R.E and E.R.E stand for?
+    Answer: Basic and Extended Regular Expressions
+
+
+2. What prefix should you use with your Regex patterns?
+    Answer: The r-prefix for RAW pattern string!
+    r"pattern"
+
+
+3. Can you think of a better way to write the following pattern, which is 15 chars long?
+    r"^...............$"
+    Answer: r"^.{15}$"
+
+
+4. Given this code, what will the pattern match?
+    text = "Brave Sir Robin ran away. Bravely ran away away. When danger reared it’s ugly head, he bravely turned his tail and fled."
+    m = re.search(r"(brave).*\1", text, flags=re.IGNORECASE)
+    print(m.group())
+    [Note: Regular expressions are greedy!]
+    Answer: Brave Sir Robin ran away. Bravely ran away away. When danger reared it’s ugly head, he brave
+
+
+5. Given this code, what would be printed?
+    text = "racecar"
+    m = re.search(r"(.)(.).\3\2\1$", text")
+    print(m.groups(), m.groups()[0], m.group(1))
+    Answer: ('r', 'a', 'c') r r

@@ -1,0 +1,33 @@
+Modules & Packages Quiz
+
+1. Name the command used to load a Python module?
+    Answer: import
+
+2. Fill in the blank.
+    Answer: Python modules have a .py suffix?
+
+3. How does the Python compiler know when to recompile a Python Standard Library module?
+    a. Module Name
+    b. Timestamps
+    c. File size
+    d. Importing using: from math import sin
+    Answer: b.Timestamps
+
+4. Given a module called banking.py which has a function called deposit().
+    Choose from the following, the code which would work:
+    a. from banking.py import deposit
+        deposit(100)
+    b. import deposit from banking
+        banking.deposit(200)
+    c. import banking
+        banking.deposit(300)
+    d. from banking import deposit
+        banking.deposit(400)
+    Answer: c
+
+5. Name the file which is created when a new Package is created?
+    Answer: __init__.py
+
+6. True/False? Does this statement satisfy PEP8 requirements?
+    import sys, math, banking
+    Answer: False (import on separate lines)

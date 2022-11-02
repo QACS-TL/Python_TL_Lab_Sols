@@ -1,0 +1,19 @@
+Persistent Storage quiz
+
+1. What is the default mode for the built-in open() function?
+    Answer: "rt" = Read and Text mode
+
+
+2. What is the default buffering mode for text files?
+    Answer: Line Buffering
+
+3. Which methods are used for random access?
+    Answer: seek() and tell()
+
+4. Which Python standard library module preserves ONE Python object to a file?
+    Answer: pickle
+
+5. Which Python standard library module preserves MULTIPLE Python objects to a file?
+    Answer: shelve
+
+

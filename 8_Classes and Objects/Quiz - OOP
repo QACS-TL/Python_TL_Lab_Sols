@@ -1,0 +1,27 @@
+OOP Quiz
+
+1. Fill in the blank.
+    In OOP, a class is a blueprint/template for an object.
+
+2. In a Python class definition, functions are called?
+    a. Functions
+    b. Methods
+    c. Accessors
+    d. Attributes
+    Answer: b. Methods
+
+3. Which is the correct way to instantiate a new knight based on this class?
+    class Knight:
+            def __init__(self, colour, bravery):
+              self.name = f"{colour} knight"
+              self.bravery = bravery
+
+    a. Knight()
+    b. Knight("Green", 4, "pepperami")
+    c. Knight("Black", 10)
+    d. Knight.__init__("Green", 4)
+    Answer: c. Knight("Black", 10)
+
+
+4. True of False - can a class inherit from multiple base classes?
+    Answer: True

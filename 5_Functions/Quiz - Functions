@@ -1,0 +1,27 @@
+Functions quiz
+
+1. What does (*, ) at the beginning of the parameter list do?
+    Answer: Enforce named parameter passing.
+
+2. What is the output of the following function call?
+    def my_func(num):
+        return num + 10
+
+    my_func(10)
+    print(num)
+    Answer: NameError: name 'num' is not defined
+
+3. True of False. Do Python functions always return a value?
+    Answer: True
+    (Python functions always return the value None unless explicit value given)
+
+4. What is the output of the following function call?
+    def display_info(**kwargs):
+        for z in kwargs:
+            print(z)
+
+    display_info(movie="braveheard", year="1995")
+
+    Answer:
+    movie
+    year

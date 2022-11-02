@@ -1,0 +1,19 @@
+Advanced Collections quiz
+
+1. What type of comprehension is this, and what would it return?
+    >>> [ num for num in range(0, 10) if num % 2 == 0 and num % 4 == 0]
+    Answer: [0, 4, 8]   # List Comprehension
+
+
+2. How many Gumbies (might have to google that!) would be displayed?
+    >>> gumbies = ['eric', 'michael', 'terry', 'john', 'terry', 'graham']
+    >>> { name for name in gumbies if len(name) <= 5 }
+    Answer: {'eric', 'terry', 'john'}   # 3 Displayed
+
+
+3. Would this sequence of commands return True or False
+    >>> movies = {'Cruella': '2021', 'Mulan': '2020', 'Mary Poppins Returns': '2018'}
+    >>> films = movies.copy()
+    >>> movies['Mulan'] = 1998
+    >>> films == movies
+    Answer: False   # Shallow Copy. Movies was changed after the copy.
