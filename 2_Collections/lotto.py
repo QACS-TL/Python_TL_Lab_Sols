@@ -10,7 +10,7 @@
 import sys
 import random
 
-
+ 
 def main():
     """ The Main Program """
     lotto = set()  # Did we mention we want Unique numbers!
